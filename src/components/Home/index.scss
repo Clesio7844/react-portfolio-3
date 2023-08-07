@@ -73,4 +73,10 @@ h2 {
     margin-top: 25px;
     float: left !important;
     animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap !important;
+
+    &:hover{
+        background: #ffd700;
+        color: #333;
+    }
 }
